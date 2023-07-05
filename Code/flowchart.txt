@@ -1,0 +1,31 @@
+1. Importing the packages
+2. exploring the dataset - Melanoma classification database 
+3. Image processing - based on image data augmentation and segmentation using keras
+4. Splitting the data to train and test
+5. building the model
+	- Google InceptionV3
+	- VGG16
+	- VGG19
+	- Mobilenet
+	- Inception Resnetv2
+	- Alexnet
+	- Densenet
+	- Ensemble method 
+	- SVM with CNN
+    
+6.training the model
+7.building the model of highest accuracy of 87% using SVM with CNN layers 
+8. Flask Framework as cloud platform with Sqlite for signup and signin
+9. User gives input
+10. the given input preprocessed and with pretrained model is used fo segmenting the 
+image
+11. the segmented image is then used for prediction using trained model
+12. final outcome is displayed through cloud in frontend 
+
+Note:
+Extension - The proposed model of melanoma detection are SVM + CNN, Google Inception, VGG, AlexNet which got around 87, 86, 58%
+respectively where the ensemble method, mobilenet, inception resnet , Densenet are the extension models got 76,78,79,82%, from 
+this we choose SVM + CNN for building the models
+
+In the base paper dataset is mentioned to use ISIC Skin data which has around 10-110GB size so we taken sample images of around 
+1.5gb and splited for training and segmenting which is available in kaggle sites 
