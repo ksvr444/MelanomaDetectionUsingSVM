@@ -1,6 +1,6 @@
 numpy
 keras
-tensorflow
+tensorflow==2.13.0rc0
 h5py
 glob2
 gunicorn
