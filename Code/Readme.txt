@@ -14,7 +14,7 @@ Steps to run the code
     virtualenv myenv
 6. Activate the virtual environment
     windows:
-    myenv/Scripts/Activate
+    myenv\Scripts\Activate
     mac:
     source myenv/bin/Activate
 7. Install all the requirement libraries.
